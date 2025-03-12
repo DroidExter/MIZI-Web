@@ -1,0 +1,5 @@
+Markdown>=3.7
+pymdown-extensions>=10.14.3
+watchdog>=6.0.0
+Pygments>=2.19.1
+md2html-links @ git+https://github.com/ricmua/markdown-md2html_links.git

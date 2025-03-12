@@ -1,0 +1,87 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  padding: 1 40px;
+}
+
+.content {
+  margin: 0 auto;
+  /* Horizontální vycentrování */
+  max-width: 900px;
+  /* Maximální šířka */
+  width: 100%;
+  /* Zabírá 100% šířky do max-width */
+  padding: 10px;
+  /* Vnitřní odsazení */
+}
+
+.footnote hr {
+  display: none;
+}
+
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 100%;
+  width: fit-content;
+}
+
+img.shadow {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+a,
+a:visited {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+
+
+html,
+body {
+  height: 97%;
+  /* Zajistí, že celá stránka bude mít výšku 100% */
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  /* Zajistí, že tělo stránky vyplní 100% výšky */
+}
+
+.content {
+  flex-grow: 1;
+  /* Tato vlastnost způsobí, že obsah zabere veškerý dostupný prostor */
+}
+
+.footer {
+  text-align: right;
+  /* Zarovná text na střed */
+  padding: 20px;
+}
+
+code {
+  background-color: #f8f8f8;
+  /* Světle šedé pozadí */
+  border-radius: 4px;
+  /* Zaoblené rohy */
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
