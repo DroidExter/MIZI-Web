@@ -15,3 +15,6 @@
 4. Customize the content and templates according to your project needs.
 
 **Example content** can be found in the `content` directory, where you can add your own Markdown files for the framework to convert into static pages.
+
+## Web demo
+![web demo](web_demo.png)
