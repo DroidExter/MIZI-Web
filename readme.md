@@ -1,6 +1,6 @@
 # MIZI-Web (Markdown izi web) 🌐
 
-**MIZI-Web** is a lightweight framework (if I can call it that) that I originally developed for school projects. The goal was to create static websites on various topics. This project was intended to make the process of building static websites more streamlined, with a focus on simplicity and ease of use.
+**MIZI-Web** is a lightweight framework (if I can call it that) that I originally developed for school projects. The goal was to create static websites on various topics. This project was intended to simplify the process of building static websites, with a focus on using Markdown to easily manage content and generate clean, simple pages. It’s designed to be simple and easy to use, making website creation more streamlined and focused on content rather than technical details.
 
 ## Features ✨
 - **Simple setup**: The framework is designed to be easy to set up and get started with.
