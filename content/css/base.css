@@ -7,13 +7,9 @@ body {
 
 .content {
   margin: 0 auto;
-  /* Horizontální vycentrování */
   max-width: 900px;
-  /* Maximální šířka */
   width: 100%;
-  /* Zabírá 100% šířky do max-width */
   padding: 10px;
-  /* Vnitřní odsazení */
 }
 
 .footnote hr {
@@ -44,7 +40,6 @@ a:visited {
 html,
 body {
   height: 97%;
-  /* Zajistí, že celá stránka bude mít výšku 100% */
   margin: 0;
 }
 
@@ -52,25 +47,20 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  /* Zajistí, že tělo stránky vyplní 100% výšky */
 }
 
 .content {
   flex-grow: 1;
-  /* Tato vlastnost způsobí, že obsah zabere veškerý dostupný prostor */
 }
 
 .footer {
   text-align: right;
-  /* Zarovná text na střed */
   padding: 20px;
 }
 
 code {
   background-color: #f8f8f8;
-  /* Světle šedé pozadí */
   border-radius: 4px;
-  /* Zaoblené rohy */
 }
 
 
